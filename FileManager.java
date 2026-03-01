@@ -3,8 +3,8 @@ package com.refactoring.projects.project10;
 import java.io.File;
 
 public class FileManager {
-
-    public void procesarArchivo(String ruta) {
+//metodo encargado de procesar un archivo
+    public void procesarArchivo(String ruta) { 
         File archivo = new File(ruta);
         if (archivo.exists()) {
             System.out.println("Archivo encontrado: " + archivo.getName());
